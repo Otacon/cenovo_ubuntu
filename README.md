@@ -13,8 +13,10 @@ Repository to store configurations for Cenovo Mini PC (Ubuntu).
 
 ### Wi-Fi
 1. replace */lib/firmware/brcm/brcmfmac43430a0-sdio.bin* with the one provided
+
  ```sudo cp brcmfmac43430a0-sdio.bin /lib/firmware/brcm/brcmfmac43430a0-sdio.bin```
 2. add *brcmfmac43430a0-sdio.txt* to */lib/firmware/brcm/*
+
 ```sudo cp brcmfmac43430a0-sdio.bin /lib/firmware/brcm/brcmfmac43430a0-sdio.bin```
 3. reboot
 
